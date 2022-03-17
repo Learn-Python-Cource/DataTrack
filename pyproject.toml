@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "datatrack"
+version = "0.1.0"
+description = ""
+authors = ["astra <zorkin.roman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+bandit = "1.7.2"
+mypy = "^0.931"
+wemake-python-styleguide = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
